@@ -17,8 +17,8 @@ notVeryFunGuys = Group.create({
 jack = User.create({
     first_name: "jack",
     last_name: "sanders",
-    group_id: funGuys.id,
     email_address: "123@fun.com",
+    group_id: funGuys.id,
     interests: "having fun with my friendo's" 
 })
 ash = User.create({
@@ -31,14 +31,21 @@ ash = User.create({
 mug = User.create({
     first_name: "mug",
     last_name: "sanders",
-    group_id: notVeryFunGuys.id,
     email_address: "123@fun.com",
+    group_id: funGuys.id,
     interests: "yelling" 
 })
 mary = User.create({
     first_name: "mary",
     last_name: "sanders",
-    group_id: notVeryFunGuys.id,
     email_address: "123@fun.com",
+    group_id: funGuys.id,
     interests: "having stair time" 
+})
+kint = User.create({
+    first_name: "kint",
+    last_name: "sanders",
+    email_address: "1aesfu23@fun.com",
+    group_id: funGuys.id,
+    interests: "having banister time" 
 })
